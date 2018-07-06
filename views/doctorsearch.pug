@@ -1,0 +1,17 @@
+div.search
+  form(action='/' method="GET")
+
+    div.inline.searchitem
+      input.textbar(name="search" type="text" placeholder="Search...")
+
+    div.inline.searchitem  Rating: >= 
+      select.textbar(name="rating")
+        each v in rating
+          option #{v.val}
+    
+    div.inline.searchitem  Area:
+      select.textbar(name="specialty")
+        each v in specialty
+          option #{v.specialty}
+
+    input.inline.searchitem.textbar(type="submit")

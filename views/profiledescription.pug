@@ -1,0 +1,19 @@
+each e in results
+  div
+    div.bold.inline Name: 
+    div.inlineblock #{e.firstname} #{e.lastname}
+    div
+    div.bold.inline Experience: 
+    div.inlineblock (#{e.experience} Years) 
+    div
+    div.bold.inline Rating: 
+    div.inlineblock #{e.vote}/5 
+    div
+    div.bold.inline Contact: 
+    div.inlineblock #{e.contact}
+    div
+    div.bold.inline Area: 
+    div.inlineblock #{e.specialty}
+    div
+    div.bold.inline Description: 
+    div.inlineblock #{e.description}

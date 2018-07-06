@@ -1,0 +1,134 @@
+.background {
+  border-color: #A9CCE3;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #A9CCE3;
+  padding: 10px;
+}
+
+.block {
+  display: block;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card {
+  background-color: #C39BD3;
+  border-color: #C39BD3;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 16px;
+  margin: 2px;
+  padding: 2px;
+}
+
+.card:hover {
+  background-color: #884EA0;
+  border-color: grey;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 16px;
+  margin: 2px;
+  padding: 2px;
+}
+
+.cardinfo {
+  background-color: white;
+  border-color: white;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 16px;
+  margin: 2px;
+  padding: 2px;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.half {
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.inline {
+  display: inline;
+}
+
+.inlineblock {
+  display: inline-block;
+}
+
+.listindex {
+  display: inline-block;
+  width: 5%;
+}
+
+.listselect {
+  display: inline-block;
+  width: 95%;
+}
+
+.panels {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.profile {
+  border-color: #A9CCE3;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #A9CCE3;
+  padding: 10px;
+}
+
+.profileimage {
+  border-style: solid;
+}
+
+.red {
+  color: red;
+}
+
+.search {
+  border-color: #7F8C8D;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #7F8C8D;
+  padding: 10px;
+}
+
+.searchitem {
+  line-height:40px;
+  padding: 4px;
+}
+
+.textbar {
+  padding: 6px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #EBF5FB;
+  padding: 40px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}

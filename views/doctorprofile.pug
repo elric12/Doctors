@@ -1,0 +1,18 @@
+extends layout
+
+block content
+
+  include header.pug
+
+  div.panels
+    include doctorsearch.pug 
+
+  div.profile
+    img.half.panels.profileimage(src="/images/profile.png")
+
+    div.panels.description
+      include profiledescription.pug
+
+  div.background.panels
+    p.underline See similar
+      include doctorsimilar.pug

@@ -1,0 +1,11 @@
+div.card.panels.pointer(id=e.doctorid onclick='javascript:redirect(\'doctor/'+e.doctorid+'\')')
+  div.listindex #{index} 
+  div.listselect 
+    div.cardinfo 
+      a.bold.inline.underline #{e.firstname} #{e.lastname}
+      div.inline  (#{e.experience} Years) 
+      div.inline #{e.vote}/5 Rating
+      div Contact: #{e.contact}
+      div Area: #{e.specialty}
+
+script(src="/javascripts/scripts.js")
